@@ -70,12 +70,6 @@ html, body {
     text-transform: uppercase;
   }
   
-  header img {
-    display: block;
-    height: 60px;
-    padding-top: 20.15px;
-  }
-  
   nav {
     height: 50px;
     flex: 100%;
@@ -107,30 +101,6 @@ html, body {
   }
   
   /* || main layout */
-  
-  main {
-    display: flex;
-  }
-  
-  article, section {
-    flex: 4;
-  }
-  
-  aside {
-    flex: 1;
-    margin-left: 10px;
-    padding: 1%;
-  }
-  
-  aside a {
-    display: block;
-    float: left;
-    width: 50%;
-  }
-  
-  aside img {
-    max-width: 100%;
-  }
   
   footer {
     margin-top: 10px;
