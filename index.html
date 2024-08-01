@@ -3,50 +3,20 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Your mom's algebra homework</title>
+    <title>Desmos</title>
     <link href="style.css" rel="stylesheet">
   </head>
   
   <body>
-    <header>
-        
-        <h1>MATH!</h1>
 
-        <nav>
-            <ul>
-                <li><a href="home.html">Home</a></li>
-                <li><a href="get_started.html">Get started</a></li>
-                <li><a href="learn.html">Learn</a></li>
-                <li><a href="go_to_bitly/trump.html">Links</a></li>
-                <li><a href="about.html">About</a></li>
-            </ul>
-        </nav>
+    <script src="https://www.desmos.com/api/v1.9/calculator.js?apiKey=dcb31709b452b1cf9dc26972add0fda6"></script>
 
-    </header>
+    <div id="calculator" style="width: 1505px; height: 833px;"></div>
+    <p> hi </p>
+    <script>
+        var elt = document.getElementById('calculator');
+        var calculator = Desmos.GraphingCalculator(elt);
+    </script>
 
-    <main>
-        <h2>Welcome</h2>
-
-        <p>The reason you're here is because you were kidnaped. NOW LEARN!</p>
-
-        <p><br>Or else.</p>
-    </main>
-
-    <footer>
-        
-        <nav>
-            <ul>
-                <li><a href="home.html">Home</a></li>
-                <li><a href="I'm_gonna_be_rich.html">Pay us</a></li>
-                <li><a href="terms.html">Terms</a></li>
-                <li><a href="faq.html">FAQ</a></li>
-                <li><a href="about.html">About</a></li>
-            </ul> 
-        </nav>
-
-        <h3>©2024. Made by Matthew Herndon. Desmos is cool.</h3>
-
-    </footer>
-      
   </body>
 </html>
